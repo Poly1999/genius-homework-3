@@ -338,14 +338,18 @@ body {
   padding: 0 80px;
 }
 
-.img-container {
+/* .img-container {
+  position: relative;
+} */
+
+.about {
+  padding-bottom: 176px;
   position: relative;
 }
 
 .star-1 {
   fill: var(--color-star-1);
-  transform: translate(117px, 300px);
-  /* z-index: 3; */
+  /* transform: translate(117px, 300px); */
 }
 
 .img-section-2-before {
@@ -388,10 +392,6 @@ h2 .accent-section5 {
 
 .sections {
   padding-bottom: 96px;
-}
-
-.about {
-  padding-bottom: 176px;
 }
 
 .img-section-4 {
