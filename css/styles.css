@@ -126,6 +126,7 @@ body {
 .link {
   color: var(--main-dark-color);
   text-decoration: none;
+  transition: color 0.3s;
 }
 
 .link:hover {
@@ -542,6 +543,7 @@ address {
   align-items: center;
   justify-content: center;
   background-color: rgba(1, 31, 74, 0.4);
+  transition: opacity 0.3s, visibility 0.3s;
 }
 
 .modal {
