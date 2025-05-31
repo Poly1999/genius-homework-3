@@ -585,3 +585,71 @@ address {
   top: 40px;
   right: 40px;
 }
+
+/* Form */
+
+.form-field {
+  margin-bottom: 24px;
+}
+
+.title-form {
+  font-family: "Play", sans-serif;
+  font-weight: 700;
+  font-size: 64px;
+  text-align: center;
+  color: var(--color-footer-light);
+  margin: 42px 140px;
+}
+
+.text-form {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 22px;
+  text-align: center;
+  color: var(--color-footer-light);
+  margin: 40px 222px;
+}
+
+.form-input {
+  padding: 18px 33px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  color: var(--color-footer-light);
+  width: 50%;
+  border: 2px solid var(--secondary-light-color);
+  border-radius: 32px;
+  background-color: transparent;
+}
+
+.form-label {
+  display: block;
+}
+
+.form-input:focus {
+  background-color: var(--secondary-light-color);
+  outline: none;
+}
+
+.form-buttom {
+  display: block;
+  margin: 0 auto 24px;
+}
+
+.form-terms {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  text-align: center;
+  color: var(--secondary-light-color);
+  margin: 0 auto;
+  max-width: 215px;
+  font-weight: 500;
+}
+
+.form-terms-link {
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: var(--secondary-light-color);
+}
