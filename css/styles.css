@@ -684,6 +684,10 @@ address {
   color: var(--color-footer-light);
 }
 
+.form-input:not(:placeholder-shown) {
+  color: var(--color-footer-light);
+}
+
 .form-buttom {
   display: block;
   margin: 0 auto 8px;
