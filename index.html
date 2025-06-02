@@ -382,6 +382,8 @@
               id="user-name"
               name="user-name"
               placeholder="Ваше ім'я та прізвище"
+              minlength="2"
+              required
             />
           </div>
           <div class="form-field">
@@ -392,6 +394,8 @@
               id="user-tel"
               name="user-tel"
               placeholder="Ваш номер телефону"
+              pattern="^\+380\d{9}$"
+              required
             />
           </div>
           <div class="form-field">
@@ -404,6 +408,7 @@
               id="user-email"
               name="user-email"
               placeholder="Ваша електронна пошта"
+              required
             />
           </div>
           <button class="form-buttom button" type="submit">
